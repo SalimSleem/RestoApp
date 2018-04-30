@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  mongo:
+    image: mongo:3.4.10
+    expose:
+      - 27017
+    ports:
+      - "27017:27017"
+    volumes:
+      - eventslocaldb:/data/db
+
+volumes:
+  eventslocaldb:
