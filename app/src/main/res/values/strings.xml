@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyEvents</string>
+    <string name="app_name">RestoApp</string>
 
     <string name="hint_name">name</string>
     <string name="hint_email">email</string>

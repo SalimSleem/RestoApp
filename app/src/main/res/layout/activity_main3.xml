@@ -8,6 +8,12 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/resto_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"

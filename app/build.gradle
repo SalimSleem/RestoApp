@@ -3,7 +3,7 @@ apply plugin: 'org.greenrobot.greendao'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.myevents"
+        applicationId "com.example.RestoApp"
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 1
@@ -43,6 +43,10 @@ dependencies {
 
     compile 'com.google.code.gson:gson:2.8.2'
 
-    compile 'com.squareup.picasso:picasso:2.71828'
+    compile 'com.squareup.picasso:picasso:2.5.2'
     implementation 'org.greenrobot:greendao:3.2.2'
+
+    compile 'com.nabinbhandari.android:permissions:3.5'
+    compile 'com.github.jkwiecien:EasyImage:2.0.4'
+
 }

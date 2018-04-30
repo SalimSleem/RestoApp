@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.myevents.screens.authentication.RegisterFragment">
+    tools:context="com.example.RestoApp.com.example.RestoApp.screens.authentication.RegisterFragment">
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/name_holder"
